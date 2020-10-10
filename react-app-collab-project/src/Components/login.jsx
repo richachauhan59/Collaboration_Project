@@ -31,11 +31,13 @@ export default class Login extends React.Component{
                 onChange={handleChange}
                 name="email"
                 />
+                <br/>
                 password
                 <input value={password} 
                 onChange={handleChange}
                 name="password"
                 />
+                <br/>
                 <button onClick={handleLogin} >Login</button>
             </div>
         )
